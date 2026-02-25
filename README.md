@@ -19,10 +19,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Deploy a windows server VM in Azure
+- Install Active Directory Domain Services (AD DS)
+- Configure DNS and Networking
+- Create and Manage Domain Objects
 
 <h2>Deployment and Configuration Steps</h2>
 
