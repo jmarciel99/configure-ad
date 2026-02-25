@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="1030" height="482" alt="image" src="https://github.com/user-attachments/assets/7c5db8ee-3127-4755-918b-b844f4de769d" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this phase we are deploying a windows server VM in Azure. Some steps tp get this started is:creating a virtual network, creating a subnet, configuring a network security group, and finally deploying the VM.
 </p>
 <br />
 
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="591" height="423" alt="image" src="https://github.com/user-attachments/assets/b5330351-f443-45f2-985b-90e416a1b8dc" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the next phase we will be installing active directory domain services. We can start by opening server manager, adding the role "Active directory domain services, after installation you'll click "promote this server to a domain controller", finally create a domain name and password.
 </p>
 <br />
 
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="631" height="446" alt="image" src="https://github.com/user-attachments/assets/4fb07573-4534-474a-9320-31e9e4000f39" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step we will be configuring DNS and Networking. We can start by setting the DNS sever to itself and configure the Azure VNet DNS setting to point to the Domain Controller. Also make sure all neccesary ports are allowed.
 </p>
 <br />
 
@@ -54,6 +54,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <img width="789" height="448" alt="image" src="https://github.com/user-attachments/assets/3194480b-3ba0-43f3-8236-5da3c08772e7" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finally in this step you will be creating and managing domain objects. Some of these objects are creating Organizational Units, creating users, creating groups, and applying group policy objects. 
 </p>
 <br />
