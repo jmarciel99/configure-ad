@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="1030" height="482" alt="image" src="https://github.com/user-attachments/assets/7c5db8ee-3127-4755-918b-b844f4de769d" />
 </p>
 <p>
-In this phase we are deploying a windows server VM in Azure. Some steps tp get this started is:creating a virtual network, creating a subnet, configuring a network security group, and finally deploying the VM.
+In this phase we are deploying a windows server VM in Azure. Some steps to get this started is:creating a virtual network, creating a subnet, configuring a network security group, and finally deploying the VM.
 </p>
 <br />
 
